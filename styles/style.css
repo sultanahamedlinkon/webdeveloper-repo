@@ -27,6 +27,9 @@
   font-size: 18px;
   color: #757575;
 }
+.text-center{
+  text-align: center;
+}
 /*button style*/
 .btn-primary{
   background-color: #FD6E0A;
@@ -101,7 +104,12 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
-/*about styles*/
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/*about section styles*/
 .about{
   border-radius: 10px;
   padding: 130px 150px;
@@ -114,4 +122,16 @@ main{
 }
 .item-description{
   font-weight: 600;
+}
+/* skill section part start*/
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0 6px 50px 0px rgba(0,0,0,0.06);
 }
